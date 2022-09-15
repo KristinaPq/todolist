@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Kristina">    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!--Вы можете разместить иконки Font Awesome в любом месте, используя в имени класса префикс fa и название иконки. Font Awesome разработан так, чтобы он мог быть использован в строковых элементах (мы любим использовать тег <i> так как он очень короткий, но использование тега <span> будет семантически более правильно).
+    <i class="fa fa-camera-retro"></i> fa-camera-retro
+    Для увеличения размеров иконок в родительском элементе используйте классы fa-lg (увеличение на 33%), fa-2x, fa-3x, fa-4x, или fa-5x.-->
+    <link rel="icon" href="ic.jfif" type="image/x-icon">
+</head>
+<body>
+  <div class="wrapper">
+    <header>Todo list</header>
+    <div class="inputField">
+      <input type="text" placeholder="Add your new todo">
+      <button><i class="fas fa-plus"></i></button>
+    </div>
+    <ul class="todoList">
+      
+    </ul>
+    <div class="footer">
+      <span>You have <span class="pendingTasks"></span> pending tasks</span>
+      <button>Clear All</button>
+    </div>
+  </div>
+<!-- data are comes from local storage -->
+  
+  
+  <script src="script.js"></script>
+</body>
+</html>
